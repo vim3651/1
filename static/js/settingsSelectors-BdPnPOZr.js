@@ -1,0 +1,1 @@
+var e=[];const t=t=>t.settings.providers||e;export{t};

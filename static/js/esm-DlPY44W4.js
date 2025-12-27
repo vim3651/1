@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["static/js/web-BZLeAf0R.js","static/js/index-hvLbsAjx.js","static/css/index-iKlUzaLt.css"])))=>i.map(i=>d[i]);
+import{Lp as e,jp as t}from"./index-hvLbsAjx.js";var n=e(`Toast`,{web:()=>t(()=>import(`./web-BZLeAf0R.js`),__vite__mapDeps([0,1,2])).then(e=>new e.ToastWeb)});export{n as t};
