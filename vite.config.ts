@@ -7,7 +7,7 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 // OXC 处理 React（高性能且与 rolldown 深度集成）
 // SolidJS 用于性能关键页面
 export default defineConfig(({ mode }) => ({
-  base: './', // 使用相对路径，支持 GitHub Pages 部署
+  base: '/1/', // 使用仓库路径，部署到 https://vim3651.github.io/1/
   plugins: [
     // SolidJS 插件 - 必须在 React 之前，处理 .solid.tsx 文件
     // 注意：vite-plugin-solid 尚未完全兼容 Rolldown，会有 esbuildOptions 警告（不影响功能）
